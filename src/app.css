@@ -10,19 +10,23 @@
 @font-face {
     font-family: Inter;
     src: url("./assets/font/regular.otf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: medium;
     src: url("./assets/font/medium.otf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: light;
     src: url("./assets/font/light.otf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: bold;
     src: url("./assets/font/bold.otf");
+    font-display: swap;
 }
