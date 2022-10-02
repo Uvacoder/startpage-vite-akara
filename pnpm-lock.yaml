@@ -7,7 +7,7 @@ specifiers:
   preact: 10.11.0
   typescript: 4.8.4
   vite: 3.1.4
-  vite-plugin-pwa: ^0.13.1
+  vite-plugin-pwa: 0.13.1
 
 dependencies:
   '@akrc/fish': 0.3.2
