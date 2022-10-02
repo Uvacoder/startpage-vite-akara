@@ -1,11 +1,8 @@
-import {useState} from 'react';
-import Icon from '@mdi/react';
+import {useState} from 'preact/hooks';
 
 const Card = (prop: props) => {
   const {name, logo, link} = prop;
   const [isHover, setIsHover] = useState(false);
-  const onMouseEnter = () => setIsHover(true);
-  const onMouseLeave = () => setIsHover(false);
 
   const formatedLink = () => {
     const index = link.indexOf('/');
@@ -21,18 +18,22 @@ const Card = (prop: props) => {
         color: isHover ? 'var(--fish-primary)' : 'unset',
         transition: '0.25s color',
       }}
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
+      onMouseEnter={() => setIsHover(true)}
+      onMouseLeave={() => setIsHover(false)}
       onClick={() => open(`https://${link}`)}
     >
-      <Icon style={{marginRight: '12px'}} path={logo} size={2.25} />
+      <div style={{marginRight: '12px'}}>
+        <svg style={{width: '40px', height: '40px'}} fill='currentColor'>
+          <path style={{transform: 'scale(1.75)'}} d={logo}></path>
+        </svg>
+      </div>
       <div>
         <h3
           style={{
             margin: 0,
             fontFamily: 'medium',
             fontSize: '20px',
-            marginBottom: '4px',
+            marginBottom: '0',
           }}
         >
           {name}
