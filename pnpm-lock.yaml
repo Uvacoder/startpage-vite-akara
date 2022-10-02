@@ -1,15 +1,15 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@akrc/fish': ^0.3.2
-  '@mdi/js': ^7.0.96
-  '@mdi/react': ^1.6.1
-  '@preact/preset-vite': ^2.3.0
-  less: ^4.1.3
-  preact: ^10.10.6
-  prettier: ^2.7.1
-  typescript: ^4.6.4
-  vite: ^3.1.0
+  '@akrc/fish': 0.3.2
+  '@mdi/js': 7.0.96
+  '@mdi/react': 1.6.1
+  '@preact/preset-vite': 2.4.0
+  less: 4.1.3
+  preact: 10.11.0
+  prettier: 2.7.1
+  typescript: 4.8.4
+  vite: 3.1.4
 
 dependencies:
   '@akrc/fish': 0.3.2
