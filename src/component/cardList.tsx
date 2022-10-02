@@ -23,7 +23,7 @@ const CardList = (prop: props) => {
 };
 
 type props = {
-  children: preact.JSX.Element | preact.JSX.Element[];
+  children: JSX.Element | JSX.Element[];
   title: string;
 };
 

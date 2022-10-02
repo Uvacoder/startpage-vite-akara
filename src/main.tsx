@@ -1,5 +1,13 @@
-import {render} from 'preact';
+import ReactDOM from 'react-dom/client';
+import React from 'react';
 import {App} from './app';
+import './app.css';
 import '@akrc/fish/fish.css';
 
-render(<App />, document.getElementById('app') as HTMLElement);
+const container = document.getElementById('app')!;
+
+ReactDOM.createRoot(container).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

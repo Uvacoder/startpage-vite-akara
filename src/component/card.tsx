@@ -1,4 +1,4 @@
-import {useState} from 'preact/hooks';
+import {useState} from 'react';
 import Icon from '@mdi/react';
 
 const Card = (prop: props) => {
@@ -6,6 +6,7 @@ const Card = (prop: props) => {
   const [isHover, setIsHover] = useState(false);
   const onMouseEnter = () => setIsHover(true);
   const onMouseLeave = () => setIsHover(false);
+
   const formatedLink = () => {
     const index = link.indexOf('/');
     if (index === -1) return link;
@@ -24,16 +25,19 @@ const Card = (prop: props) => {
       onMouseLeave={onMouseLeave}
       onClick={() => open(`https://${link}`)}
     >
-      <div style={{marginRight: '12px'}}>
-        <Icon path={logo} size={2.25} />
-      </div>
+      <Icon style={{marginRight: '12px'}} path={logo} size={2.25} />
       <div>
-        <div
-          style={{fontFamily: 'medium', fontSize: '20px', marginBottom: '2px'}}
+        <h3
+          style={{
+            margin: 0,
+            fontFamily: 'medium',
+            fontSize: '20px',
+            marginBottom: '4px',
+          }}
         >
           {name}
-        </div>
-        <div style={{fontFamily: 'Inter'}}>{formatedLink()}</div>
+        </h3>
+        <p style={{margin: 0, fontFamily: 'Inter'}}>{formatedLink()}</p>
       </div>
     </div>
   );

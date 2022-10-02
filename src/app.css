@@ -9,20 +9,20 @@
 
 @font-face {
     font-family: Inter;
-    src: url("assets/font/regular.otf");
+    src: url("./assets/font/regular.otf");
 }
 
 @font-face {
     font-family: medium;
-    src: url("assets/font/medium.otf");
+    src: url("./assets/font/medium.otf");
 }
 
 @font-face {
     font-family: light;
-    src: url("assets/font/light.otf");
+    src: url("./assets/font/light.otf");
 }
 
 @font-face {
     font-family: bold;
-    src: url("assets/font/bold.otf");
+    src: url("./assets/font/bold.otf");
 }
