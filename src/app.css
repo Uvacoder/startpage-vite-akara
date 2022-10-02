@@ -1,0 +1,28 @@
+#app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em 0;
+    font-family: Inter;
+    user-select: none;
+    opacity: 0.75;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("assets/font/regular.otf");
+}
+
+@font-face {
+    font-family: medium;
+    src: url("assets/font/medium.otf");
+}
+
+@font-face {
+    font-family: light;
+    src: url("assets/font/light.otf");
+}
+
+@font-face {
+    font-family: bold;
+    src: url("assets/font/bold.otf");
+}
