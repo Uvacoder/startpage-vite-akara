@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@akrc/fish": "0.3.2",
+    "@akrc/fish": "0.4.0",
     "@mdi/js": "7.0.96",
     "preact": "10.11.1"
   },
