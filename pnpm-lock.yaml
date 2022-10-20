@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@akrc/fish': 0.4.3
+  '@akrc/fish': 0.4.4
   '@mdi/js': 7.0.96
   '@preact/preset-vite': 2.4.0
   preact: 10.11.2
@@ -10,7 +10,7 @@ specifiers:
   vite-plugin-pwa: 0.13.1
 
 dependencies:
-  '@akrc/fish': 0.4.3
+  '@akrc/fish': 0.4.4
   '@mdi/js': 7.0.96
   preact: 10.11.2
 
@@ -22,8 +22,8 @@ devDependencies:
 
 packages:
 
-  /@akrc/fish/0.4.3:
-    resolution: {integrity: sha512-CfFzNIrJrPriN/kO/UnrJPLxf9ifsIfZudfjS3UAYPBEh3Fh2pPjHhiUfuyEawPfOXBpx+4w4YMuhcNW+Tqj9w==}
+  /@akrc/fish/0.4.4:
+    resolution: {integrity: sha512-xMxjAowkQroq6clWwcScHv5xEGvR4PAZ2MHK6hlHO3ltKdc2obWznFPSv91RWwINirizBRxvkJO1fGbCoxW8qg==}
     dev: false
 
   /@ampproject/remapping/2.2.0:
