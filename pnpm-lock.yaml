@@ -6,7 +6,7 @@ specifiers:
   '@preact/preset-vite': 2.4.0
   preact: 10.11.3
   typescript: 4.9.4
-  vite: 4.0.0
+  vite: 4.0.1
   vite-plugin-pwa: 0.14.0
 
 dependencies:
@@ -15,10 +15,10 @@ dependencies:
   preact: 10.11.3
 
 devDependencies:
-  '@preact/preset-vite': 2.4.0_vpx2l4a4sgstcug5pjmhrd722m
+  '@preact/preset-vite': 2.4.0_r5b2643c7pqoyy7qsaamu3fxum
   typescript: 4.9.4
-  vite: 4.0.0
-  vite-plugin-pwa: 0.14.0_ey73qqxyiosw72sm7fnc7yd3jm
+  vite: 4.0.1
+  vite-plugin-pwa: 0.14.0_g4iujw25hqdfh6wclgohw5mvje
 
 packages:
 
@@ -1488,7 +1488,7 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@preact/preset-vite/2.4.0_vpx2l4a4sgstcug5pjmhrd722m:
+  /@preact/preset-vite/2.4.0_r5b2643c7pqoyy7qsaamu3fxum:
     resolution: {integrity: sha512-EiUMHuiCThuTuK+eH2r5uDg+CJbbt4aWJGePuszrHuXUpRv6WAeO4S+/DTJsEHtPtGmPRR3cLQ68N5097eOSRA==}
     peerDependencies:
       '@babel/core': 7.x
@@ -1497,13 +1497,13 @@ packages:
       '@babel/core': 7.19.3
       '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.19.3
       '@babel/plugin-transform-react-jsx-development': 7.18.6_@babel+core@7.19.3
-      '@prefresh/vite': 2.2.8_preact@10.11.3+vite@4.0.0
+      '@prefresh/vite': 2.2.8_preact@10.11.3+vite@4.0.1
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2_@babel+core@7.19.3
       debug: 4.3.4
       kolorist: 1.6.0
       resolve: 1.22.1
-      vite: 4.0.0
+      vite: 4.0.1
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -1525,7 +1525,7 @@ packages:
     resolution: {integrity: sha512-Mb9abhJTOV4yCfkXrMrcgFiFT7MfNOw8sDa+XyZBdq/Ai2p4Zyxqsb3EgHLOEdHpMj6J9aiZ54W8H6FTam1u+A==}
     dev: true
 
-  /@prefresh/vite/2.2.8_preact@10.11.3+vite@4.0.0:
+  /@prefresh/vite/2.2.8_preact@10.11.3+vite@4.0.1:
     resolution: {integrity: sha512-yGGa+PKPYPTzMlxgQ8aBgxw9K69I8X4iQ0E6KOcIvls96WKqKLLOYZW9SUgCve446jpUXvc9udviPBZjCeZIIQ==}
     peerDependencies:
       preact: ^10.4.0
@@ -1537,7 +1537,7 @@ packages:
       '@prefresh/utils': 1.1.3
       '@rollup/pluginutils': 4.2.1
       preact: 10.11.3
-      vite: 4.0.0
+      vite: 4.0.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2494,8 +2494,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /postcss/8.4.19:
-    resolution: {integrity: sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==}
+  /postcss/8.4.20:
+    resolution: {integrity: sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.4
@@ -2619,14 +2619,6 @@ packages:
   /rollup/2.79.1:
     resolution: {integrity: sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==}
     engines: {node: '>=10.0.0'}
-    hasBin: true
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
-
-  /rollup/3.7.0:
-    resolution: {integrity: sha512-FIJe0msW9P7L9BTfvaJyvn1U1BVCNTL3w8O+PKIrCyiMLg+rIUGb4MbcgVZ10Lnm1uWXOTOWRNARjfXC1+M12Q==}
-    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
@@ -2889,7 +2881,7 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /vite-plugin-pwa/0.14.0_ey73qqxyiosw72sm7fnc7yd3jm:
+  /vite-plugin-pwa/0.14.0_g4iujw25hqdfh6wclgohw5mvje:
     resolution: {integrity: sha512-3wZx47PLWTckOQhc8Y6YZjAbNZ89Ovh4TdCT97MGhgl7aFd2LUekVnAmIgFwgMqyxzJ93nmkPF/ALpEW/i2qCg==}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0
@@ -2901,15 +2893,15 @@ packages:
       fast-glob: 3.2.12
       pretty-bytes: 6.0.0
       rollup: 3.7.3
-      vite: 4.0.0
+      vite: 4.0.1
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/4.0.0:
-    resolution: {integrity: sha512-ynad+4kYs8Jcnn8J7SacS9vAbk7eMy0xWg6E7bAhS1s79TK+D7tVFGXVZ55S7RNLRROU1rxoKlvZ/qjaB41DGA==}
+  /vite/4.0.1:
+    resolution: {integrity: sha512-kZQPzbDau35iWOhy3CpkrRC7It+HIHtulAzBhMqzGHKRf/4+vmh8rPDDdv98SWQrFWo6//3ozwsRmwQIPZsK9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2934,9 +2926,9 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.16.3
-      postcss: 8.4.19
+      postcss: 8.4.20
       resolve: 1.22.1
-      rollup: 3.7.0
+      rollup: 3.7.3
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
