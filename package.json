@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@akrc/fish": "0.4.5",
-    "@mdi/js": "7.0.96",
+    "@mdi/js": "7.1.96",
     "preact": "10.11.3"
   },
   "devDependencies": {
