@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@akrc/fish': 0.4.5
   '@mdi/js': 7.1.96
-  '@preact/preset-vite': 2.4.0
+  '@preact/preset-vite': 2.5.0
   preact: 10.11.3
   typescript: 4.9.4
   vite: 4.0.1
@@ -15,7 +15,7 @@ dependencies:
   preact: 10.11.3
 
 devDependencies:
-  '@preact/preset-vite': 2.4.0_r5b2643c7pqoyy7qsaamu3fxum
+  '@preact/preset-vite': 2.5.0_r5b2643c7pqoyy7qsaamu3fxum
   typescript: 4.9.4
   vite: 4.0.1
   vite-plugin-pwa: 0.14.0_g4iujw25hqdfh6wclgohw5mvje
@@ -1488,11 +1488,11 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@preact/preset-vite/2.4.0_r5b2643c7pqoyy7qsaamu3fxum:
-    resolution: {integrity: sha512-EiUMHuiCThuTuK+eH2r5uDg+CJbbt4aWJGePuszrHuXUpRv6WAeO4S+/DTJsEHtPtGmPRR3cLQ68N5097eOSRA==}
+  /@preact/preset-vite/2.5.0_r5b2643c7pqoyy7qsaamu3fxum:
+    resolution: {integrity: sha512-BUhfB2xQ6ex0yPkrT1Z3LbfPzjpJecOZwQ/xJrXGFSZD84+ObyS//41RdEoQCMWsM0t7UHGaujUxUBub7WM1Jw==}
     peerDependencies:
       '@babel/core': 7.x
-      vite: 2.x || 3.x
+      vite: 2.x || 3.x || 4.x
     dependencies:
       '@babel/core': 7.19.3
       '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.19.3
