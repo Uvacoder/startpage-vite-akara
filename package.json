@@ -11,7 +11,7 @@
   "dependencies": {
     "@akrc/fish": "0.4.5",
     "@mdi/js": "7.1.96",
-    "preact": "10.12.0"
+    "preact": "10.12.1"
   },
   "devDependencies": {
     "@preact/preset-vite": "2.5.0",
